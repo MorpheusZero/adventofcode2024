@@ -1,7 +1,10 @@
-# adventofcode2024
+# AdventOfCode2024
 
 https://adventofcode.com/2024/about
 
-### Day 1
+I used Golang for the events this year.
 
-[Day 1 Part 1](https://adventofcode.com/2024/day/1)
+### Events
+
+[Day 1](https://adventofcode.com/2024/day/1)
+[Day 2](https://adventofcode.com/2024/day/2)
