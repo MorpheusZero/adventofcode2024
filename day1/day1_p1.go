@@ -44,3 +44,22 @@ func MainP1() {
 
 	fmt.Println("Running total: ", RUNNING_TOTAL)
 }
+
+func getSmallestIntFromArray(array []int) int {
+	smallest := array[0]
+	for _, item := range array {
+		if item < smallest {
+			smallest = item
+		}
+	}
+	return smallest
+}
+
+func removeIntFromArray(array []int, value int) []int {
+	for i, item := range array {
+		if item == value {
+			return append(array[:i], array[i+1:]...)
+		}
+	}
+	return array
+}
