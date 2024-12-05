@@ -1,7 +1,7 @@
 package main
 
-import "github.com/morpheuszero/adventofcode2023/day1"
+import "github.com/morpheuszero/adventofcode2023/day2"
 
 func main() {
-	day1.MainP2()
+	day2.MainP2()
 }
